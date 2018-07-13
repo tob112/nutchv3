@@ -124,13 +124,13 @@
     <dependency org="org.apache.gora" name="gora-cassandra" rev="0.6.1" conf="*->default" />
     -->
     <!-- Uncomment this to use MongoDB as Gora backend. -->
-    <!--
+
     <dependency org="org.apache.gora" name="gora-mongodb" rev="0.6.1" conf="*->default" />
-    -->    
+
     <!-- Uncomment this to use Solr as Gora backend. -->
-
+    <!--
     <dependency org="org.apache.gora" name="gora-solr" rev="0.6.1" conf="*->default" />
-
+    -->
     <!-- The gora-compiler is used within the 'ant generate-gora-src' target to compile
     the Gora .avsc files within ./src/gora 
     -->
